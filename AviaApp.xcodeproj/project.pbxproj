@@ -11,6 +11,37 @@
 		D2F2A8AE2C0E34D200767871 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F2A8AD2C0E34D200767871 /* ContentView.swift */; };
 		D2F2A8B02C0E34D400767871 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2F2A8AF2C0E34D400767871 /* Assets.xcassets */; };
 		D2F2A8B32C0E34D400767871 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2F2A8B22C0E34D400767871 /* Preview Assets.xcassets */; };
+		D2F2A8BC2C0E357C00767871 /* PlaneTicketsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F2A8BB2C0E357C00767871 /* PlaneTicketsView.swift */; };
+		D2F2A8BE2C0E36E800767871 /* EmptyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F2A8BD2C0E36E800767871 /* EmptyView.swift */; };
+		D2F2A8C32C0E3C1100767871 /* PlaneTicketsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F2A8C22C0E3C1100767871 /* PlaneTicketsViewModel.swift */; };
+		D2F2A8C62C0E451C00767871 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F2A8C52C0E451C00767871 /* NetworkManager.swift */; };
+		D2F2A8C92C0E45BD00767871 /* Offer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F2A8C82C0E45BD00767871 /* Offer.swift */; };
+		D2F2A8CB2C0E547400767871 /* OfferView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F2A8CA2C0E547400767871 /* OfferView.swift */; };
+		D2F2A8CE2C0E558500767871 /* OfferViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F2A8CD2C0E558500767871 /* OfferViewModel.swift */; };
+		D2F2A8D02C0E5B3D00767871 /* SearchRectangleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F2A8CF2C0E5B3D00767871 /* SearchRectangleView.swift */; };
+		D2F2A8D42C0E642E00767871 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F2A8D32C0E642E00767871 /* SearchView.swift */; };
+		D2F2A8D62C0E644100767871 /* SearchBoxViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F2A8D52C0E644100767871 /* SearchBoxViewModel.swift */; };
+		D2F2A8D82C0E679400767871 /* SearchBoxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F2A8D72C0E679400767871 /* SearchBoxView.swift */; };
+		D2F2A8DB2C0E6FBD00767871 /* TitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F2A8DA2C0E6FBD00767871 /* TitleView.swift */; };
+		D2F2A8DD2C0F28A800767871 /* TextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F2A8DC2C0F28A800767871 /* TextFieldView.swift */; };
+		D2F2A8DF2C0F4BF200767871 /* HintButtonsScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F2A8DE2C0F4BF200767871 /* HintButtonsScrollView.swift */; };
+		D2F2A8E12C0F4DA300767871 /* HintButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F2A8E02C0F4DA300767871 /* HintButton.swift */; };
+		D2F2A8E32C0F4EDF00767871 /* HintButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F2A8E22C0F4EDF00767871 /* HintButtonView.swift */; };
+		D2F2A8E62C0F547B00767871 /* CitiesListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F2A8E52C0F547B00767871 /* CitiesListView.swift */; };
+		D2F2A8E82C0F56B500767871 /* City.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F2A8E72C0F56B500767871 /* City.swift */; };
+		D2F2A8EA2C0F573000767871 /* CityRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F2A8E92C0F573000767871 /* CityRowView.swift */; };
+		D2F2A8F62C0FA83B00767871 /* CountryChosenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F2A8F52C0FA83B00767871 /* CountryChosenView.swift */; };
+		D2F2A8F82C0FA8D400767871 /* HintButtonsScrollViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F2A8F72C0FA8D400767871 /* HintButtonsScrollViewModel.swift */; };
+		D2F2A8FA2C0FB37600767871 /* CitiesListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F2A8F92C0FB37600767871 /* CitiesListViewModel.swift */; };
+		D2F2A8FD2C0FB82A00767871 /* CountryChosenBoxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F2A8FC2C0FB82A00767871 /* CountryChosenBoxView.swift */; };
+		D2F2A9012C0FC5DC00767871 /* FilterScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F2A9002C0FC5DC00767871 /* FilterScrollView.swift */; };
+		D2F2A9032C0FC7DD00767871 /* FilterButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F2A9022C0FC7DD00767871 /* FilterButtonView.swift */; };
+		D2F2A9052C0FCB9200767871 /* DateButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F2A9042C0FCB9200767871 /* DateButtonView.swift */; };
+		D2F2A9082C109AD900767871 /* TicketsOffers.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F2A9072C109AD900767871 /* TicketsOffers.swift */; };
+		D2F2A90B2C109F6B00767871 /* TicketOffersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F2A90A2C109F6B00767871 /* TicketOffersView.swift */; };
+		D2F2A90D2C109F7900767871 /* TicketRowViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F2A90C2C109F7900767871 /* TicketRowViewModel.swift */; };
+		D2F2A90F2C10A12000767871 /* TicketRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F2A90E2C10A12000767871 /* TicketRowView.swift */; };
+		D2F2A9132C10AA9800767871 /* TicketOffersViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F2A9122C10AA9800767871 /* TicketOffersViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +50,37 @@
 		D2F2A8AD2C0E34D200767871 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D2F2A8AF2C0E34D400767871 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D2F2A8B22C0E34D400767871 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D2F2A8BB2C0E357C00767871 /* PlaneTicketsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaneTicketsView.swift; sourceTree = "<group>"; };
+		D2F2A8BD2C0E36E800767871 /* EmptyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyView.swift; sourceTree = "<group>"; };
+		D2F2A8C22C0E3C1100767871 /* PlaneTicketsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaneTicketsViewModel.swift; sourceTree = "<group>"; };
+		D2F2A8C52C0E451C00767871 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		D2F2A8C82C0E45BD00767871 /* Offer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Offer.swift; sourceTree = "<group>"; };
+		D2F2A8CA2C0E547400767871 /* OfferView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfferView.swift; sourceTree = "<group>"; };
+		D2F2A8CD2C0E558500767871 /* OfferViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfferViewModel.swift; sourceTree = "<group>"; };
+		D2F2A8CF2C0E5B3D00767871 /* SearchRectangleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchRectangleView.swift; sourceTree = "<group>"; };
+		D2F2A8D32C0E642E00767871 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		D2F2A8D52C0E644100767871 /* SearchBoxViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBoxViewModel.swift; sourceTree = "<group>"; };
+		D2F2A8D72C0E679400767871 /* SearchBoxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBoxView.swift; sourceTree = "<group>"; };
+		D2F2A8DA2C0E6FBD00767871 /* TitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleView.swift; sourceTree = "<group>"; };
+		D2F2A8DC2C0F28A800767871 /* TextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldView.swift; sourceTree = "<group>"; };
+		D2F2A8DE2C0F4BF200767871 /* HintButtonsScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HintButtonsScrollView.swift; sourceTree = "<group>"; };
+		D2F2A8E02C0F4DA300767871 /* HintButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HintButton.swift; sourceTree = "<group>"; };
+		D2F2A8E22C0F4EDF00767871 /* HintButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HintButtonView.swift; sourceTree = "<group>"; };
+		D2F2A8E52C0F547B00767871 /* CitiesListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitiesListView.swift; sourceTree = "<group>"; };
+		D2F2A8E72C0F56B500767871 /* City.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = City.swift; sourceTree = "<group>"; };
+		D2F2A8E92C0F573000767871 /* CityRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityRowView.swift; sourceTree = "<group>"; };
+		D2F2A8F52C0FA83B00767871 /* CountryChosenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryChosenView.swift; sourceTree = "<group>"; };
+		D2F2A8F72C0FA8D400767871 /* HintButtonsScrollViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HintButtonsScrollViewModel.swift; sourceTree = "<group>"; };
+		D2F2A8F92C0FB37600767871 /* CitiesListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitiesListViewModel.swift; sourceTree = "<group>"; };
+		D2F2A8FC2C0FB82A00767871 /* CountryChosenBoxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryChosenBoxView.swift; sourceTree = "<group>"; };
+		D2F2A9002C0FC5DC00767871 /* FilterScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterScrollView.swift; sourceTree = "<group>"; };
+		D2F2A9022C0FC7DD00767871 /* FilterButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterButtonView.swift; sourceTree = "<group>"; };
+		D2F2A9042C0FCB9200767871 /* DateButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateButtonView.swift; sourceTree = "<group>"; };
+		D2F2A9072C109AD900767871 /* TicketsOffers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketsOffers.swift; sourceTree = "<group>"; };
+		D2F2A90A2C109F6B00767871 /* TicketOffersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketOffersView.swift; sourceTree = "<group>"; };
+		D2F2A90C2C109F7900767871 /* TicketRowViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketRowViewModel.swift; sourceTree = "<group>"; };
+		D2F2A90E2C10A12000767871 /* TicketRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketRowView.swift; sourceTree = "<group>"; };
+		D2F2A9122C10AA9800767871 /* TicketOffersViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketOffersViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +115,12 @@
 			children = (
 				D2F2A8AB2C0E34D200767871 /* AviaAppApp.swift */,
 				D2F2A8AD2C0E34D200767871 /* ContentView.swift */,
+				D2F2A8C12C0E3C0000767871 /* PlaneTicketsView */,
+				D2F2A8D12C0E63C100767871 /* SearchView */,
+				D2F2A8F42C0FA7F600767871 /* CountryChosenView */,
+				D2F2A8D22C0E63F500767871 /* EmptyView */,
+				D2F2A8C72C0E45A800767871 /* Models */,
+				D2F2A8C42C0E450500767871 /* Services */,
 				D2F2A8AF2C0E34D400767871 /* Assets.xcassets */,
 				D2F2A8B12C0E34D400767871 /* Preview Content */,
 			);
@@ -65,6 +133,135 @@
 				D2F2A8B22C0E34D400767871 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D2F2A8C12C0E3C0000767871 /* PlaneTicketsView */ = {
+			isa = PBXGroup;
+			children = (
+				D2F2A8BB2C0E357C00767871 /* PlaneTicketsView.swift */,
+				D2F2A8C22C0E3C1100767871 /* PlaneTicketsViewModel.swift */,
+				D2F2A8CF2C0E5B3D00767871 /* SearchRectangleView.swift */,
+				D2F2A8DA2C0E6FBD00767871 /* TitleView.swift */,
+				D2F2A8CC2C0E555500767871 /* OfferView */,
+			);
+			path = PlaneTicketsView;
+			sourceTree = "<group>";
+		};
+		D2F2A8C42C0E450500767871 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				D2F2A8C52C0E451C00767871 /* NetworkManager.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		D2F2A8C72C0E45A800767871 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D2F2A8C82C0E45BD00767871 /* Offer.swift */,
+				D2F2A8E02C0F4DA300767871 /* HintButton.swift */,
+				D2F2A8E72C0F56B500767871 /* City.swift */,
+				D2F2A9072C109AD900767871 /* TicketsOffers.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D2F2A8CC2C0E555500767871 /* OfferView */ = {
+			isa = PBXGroup;
+			children = (
+				D2F2A8CA2C0E547400767871 /* OfferView.swift */,
+				D2F2A8CD2C0E558500767871 /* OfferViewModel.swift */,
+			);
+			path = OfferView;
+			sourceTree = "<group>";
+		};
+		D2F2A8D12C0E63C100767871 /* SearchView */ = {
+			isa = PBXGroup;
+			children = (
+				D2F2A8D32C0E642E00767871 /* SearchView.swift */,
+				D2F2A8F32C0F6F9900767871 /* SearchTextFieldView */,
+				D2F2A8F22C0F6F8F00767871 /* HintButtonsScrollView */,
+				D2F2A8EF2C0F6DF700767871 /* CitiesListView */,
+			);
+			path = SearchView;
+			sourceTree = "<group>";
+		};
+		D2F2A8D22C0E63F500767871 /* EmptyView */ = {
+			isa = PBXGroup;
+			children = (
+				D2F2A8BD2C0E36E800767871 /* EmptyView.swift */,
+			);
+			path = EmptyView;
+			sourceTree = "<group>";
+		};
+		D2F2A8EF2C0F6DF700767871 /* CitiesListView */ = {
+			isa = PBXGroup;
+			children = (
+				D2F2A8E52C0F547B00767871 /* CitiesListView.swift */,
+				D2F2A8F92C0FB37600767871 /* CitiesListViewModel.swift */,
+				D2F2A8E92C0F573000767871 /* CityRowView.swift */,
+			);
+			path = CitiesListView;
+			sourceTree = "<group>";
+		};
+		D2F2A8F22C0F6F8F00767871 /* HintButtonsScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				D2F2A8DE2C0F4BF200767871 /* HintButtonsScrollView.swift */,
+				D2F2A8F72C0FA8D400767871 /* HintButtonsScrollViewModel.swift */,
+				D2F2A8E22C0F4EDF00767871 /* HintButtonView.swift */,
+			);
+			path = HintButtonsScrollView;
+			sourceTree = "<group>";
+		};
+		D2F2A8F32C0F6F9900767871 /* SearchTextFieldView */ = {
+			isa = PBXGroup;
+			children = (
+				D2F2A8D72C0E679400767871 /* SearchBoxView.swift */,
+				D2F2A8D52C0E644100767871 /* SearchBoxViewModel.swift */,
+				D2F2A8DC2C0F28A800767871 /* TextFieldView.swift */,
+			);
+			path = SearchTextFieldView;
+			sourceTree = "<group>";
+		};
+		D2F2A8F42C0FA7F600767871 /* CountryChosenView */ = {
+			isa = PBXGroup;
+			children = (
+				D2F2A8F52C0FA83B00767871 /* CountryChosenView.swift */,
+				D2F2A8FB2C0FB7E300767871 /* CountryChosenTextFieldView */,
+				D2F2A9062C0FCC5600767871 /* FilterScrollView */,
+				D2F2A9092C109F5900767871 /* TicketOffersView */,
+			);
+			path = CountryChosenView;
+			sourceTree = "<group>";
+		};
+		D2F2A8FB2C0FB7E300767871 /* CountryChosenTextFieldView */ = {
+			isa = PBXGroup;
+			children = (
+				D2F2A8FC2C0FB82A00767871 /* CountryChosenBoxView.swift */,
+			);
+			path = CountryChosenTextFieldView;
+			sourceTree = "<group>";
+		};
+		D2F2A9062C0FCC5600767871 /* FilterScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				D2F2A9002C0FC5DC00767871 /* FilterScrollView.swift */,
+				D2F2A9022C0FC7DD00767871 /* FilterButtonView.swift */,
+				D2F2A9042C0FCB9200767871 /* DateButtonView.swift */,
+			);
+			path = FilterScrollView;
+			sourceTree = "<group>";
+		};
+		D2F2A9092C109F5900767871 /* TicketOffersView */ = {
+			isa = PBXGroup;
+			children = (
+				D2F2A90A2C109F6B00767871 /* TicketOffersView.swift */,
+				D2F2A9122C10AA9800767871 /* TicketOffersViewModel.swift */,
+				D2F2A90E2C10A12000767871 /* TicketRowView.swift */,
+				D2F2A90C2C109F7900767871 /* TicketRowViewModel.swift */,
+			);
+			path = TicketOffersView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +334,39 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2F2A8D02C0E5B3D00767871 /* SearchRectangleView.swift in Sources */,
+				D2F2A90D2C109F7900767871 /* TicketRowViewModel.swift in Sources */,
+				D2F2A90B2C109F6B00767871 /* TicketOffersView.swift in Sources */,
+				D2F2A8C92C0E45BD00767871 /* Offer.swift in Sources */,
+				D2F2A9032C0FC7DD00767871 /* FilterButtonView.swift in Sources */,
+				D2F2A90F2C10A12000767871 /* TicketRowView.swift in Sources */,
+				D2F2A8C62C0E451C00767871 /* NetworkManager.swift in Sources */,
+				D2F2A8E32C0F4EDF00767871 /* HintButtonView.swift in Sources */,
+				D2F2A8DB2C0E6FBD00767871 /* TitleView.swift in Sources */,
 				D2F2A8AE2C0E34D200767871 /* ContentView.swift in Sources */,
+				D2F2A8EA2C0F573000767871 /* CityRowView.swift in Sources */,
+				D2F2A8E82C0F56B500767871 /* City.swift in Sources */,
+				D2F2A9012C0FC5DC00767871 /* FilterScrollView.swift in Sources */,
+				D2F2A8C32C0E3C1100767871 /* PlaneTicketsViewModel.swift in Sources */,
+				D2F2A8DF2C0F4BF200767871 /* HintButtonsScrollView.swift in Sources */,
+				D2F2A8BE2C0E36E800767871 /* EmptyView.swift in Sources */,
+				D2F2A8D62C0E644100767871 /* SearchBoxViewModel.swift in Sources */,
+				D2F2A8CE2C0E558500767871 /* OfferViewModel.swift in Sources */,
+				D2F2A8FD2C0FB82A00767871 /* CountryChosenBoxView.swift in Sources */,
+				D2F2A9132C10AA9800767871 /* TicketOffersViewModel.swift in Sources */,
+				D2F2A8CB2C0E547400767871 /* OfferView.swift in Sources */,
+				D2F2A8D82C0E679400767871 /* SearchBoxView.swift in Sources */,
+				D2F2A8F82C0FA8D400767871 /* HintButtonsScrollViewModel.swift in Sources */,
+				D2F2A8DD2C0F28A800767871 /* TextFieldView.swift in Sources */,
+				D2F2A8FA2C0FB37600767871 /* CitiesListViewModel.swift in Sources */,
+				D2F2A8E12C0F4DA300767871 /* HintButton.swift in Sources */,
+				D2F2A8F62C0FA83B00767871 /* CountryChosenView.swift in Sources */,
 				D2F2A8AC2C0E34D200767871 /* AviaAppApp.swift in Sources */,
+				D2F2A9052C0FCB9200767871 /* DateButtonView.swift in Sources */,
+				D2F2A9082C109AD900767871 /* TicketsOffers.swift in Sources */,
+				D2F2A8E62C0F547B00767871 /* CitiesListView.swift in Sources */,
+				D2F2A8BC2C0E357C00767871 /* PlaneTicketsView.swift in Sources */,
+				D2F2A8D42C0E642E00767871 /* SearchView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,8 +505,8 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -286,9 +514,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = antonpenkov.AviaApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -305,8 +537,8 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -314,9 +546,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = antonpenkov.AviaApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
